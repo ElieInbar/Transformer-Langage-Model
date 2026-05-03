@@ -1,0 +1,18 @@
+{
+    "mode": "train",
+    "data_path": "../data/en/",
+    "save_model_path": "model_en.pt",
+    "load_model_path": "model_en.pt",
+    "save_tokenizer_path": "tokenizer_en.json",
+    "load_tokenizer_path": "tokenizer_en.json",
+    "num_batches": 50000,
+    "seq_len": 128,
+    "batch_size": 64,
+    "n_layers": 6,
+    "n_heads": 6,
+    "embed_size": 192,
+    "learning_rate": 0.0005,
+    "gradient_clipping": 1.0,
+    "temperature": 1.0,
+    "topK": 5
+}
